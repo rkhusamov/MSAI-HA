@@ -6,6 +6,7 @@ class VendingMachine:
     def __init__(self, items, cash):
         # which items are presented on which shelves
         self._items = items
+        # TODO here add different types of items (e.g. liquids, snacks, ...)
         # how much money inside machine to give change
         self._cash = cash
         # which purchases users made
